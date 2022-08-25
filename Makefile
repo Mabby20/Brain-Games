@@ -7,3 +7,7 @@ brain-games: # запускает игру
 publish: # проводит отладку публикации пакета
 	npm publish --dry-run
 
+lint:
+	npx eslint .
+
+
