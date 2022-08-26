@@ -3,7 +3,8 @@ install:  # устнавливает зависимости после клон�
 
 brain-games: # запускает игру
 	node bin/brain-games.js
-
+brain-even:
+	node bin/brain-even.js
 publish: # проводит отладку публикации пакета
 	npm publish --dry-run
 
