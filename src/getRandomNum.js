@@ -1,3 +1,1 @@
-export  default () => {
-  return Math.ceil(Math.random() * 10);
-};
+export default (index = 10) => Math.ceil(Math.random() * index);
