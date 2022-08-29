@@ -1,6 +1,6 @@
-import getRandElemArr from "../getRandElemArr.js";
-import getRandomNum from "../getRandomNum.js";
-import gameCore from "../index.js";
+import getRandElemArr from '../getRandElemArr.js';
+import getRandomNum from '../getRandomNum.js';
+import gameCore from '../index.js';
 
 export default () => {
   const task = 'What is the result of the expression?';
@@ -25,6 +25,6 @@ export default () => {
       default:
     }
     return [question, correctAnswer];
-  }
-gameCore(task, getArrWithAnswerQuestion);
+  };
+  gameCore(task, getArrWithAnswerQuestion);
 };
