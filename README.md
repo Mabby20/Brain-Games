@@ -12,3 +12,8 @@
 Пользователю показывается случайное математическое выражение, например 35 + 16, которое нужно вычислить и записать правильный ответ.
 ### Запуск: `brain-calc`<br>
 [![asciicast](https://asciinema.org/a/WdmWJV1k2uQmh2ftz7YwzlZOe.svg)](https://asciinema.org/a/WdmWJV1k2uQmh2ftz7YwzlZOe)
+## Игра: "НОД"
+### Описание игры:
+Пользователю показывается два случайных числа, например, 25 50. Пользователь должен вычислить и ввести наибольший общий делитель этих чисел.
+### Запуск: `brain-gcd`<br>
+[![asciicast](https://asciinema.org/a/3t8nQeWbxSrUXk7Omrm66BIkn.svg)](https://asciinema.org/a/3t8nQeWbxSrUXk7Omrm66BIkn)
