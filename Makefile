@@ -1,4 +1,4 @@
-install:  # устнавливает зависимости после клонирования или удаления node_modulesды
+install:  # устнавливает зависимости после клонирования или удаления node_modules
 	npm ci
 
 brain-games: # запускает игру
@@ -12,6 +12,9 @@ brain-calc:
 
 brain-gcd:
 	node bin/brain-gcd.js
+
+brain-progression:
+	node bin/brain-progression.js
 
 publish: # проводит отладку публикации пакета
 	npm publish --dry-run
