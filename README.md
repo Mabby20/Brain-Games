@@ -9,7 +9,7 @@
 [![asciicast](https://asciinema.org/a/ie0rEaMKxMTgahsG0jypvueZl.svg)](https://asciinema.org/a/ie0rEaMKxMTgahsG0jypvueZl)
 ## Игра: "Калькулятор"
 ### Описание игры:
-Пользователю показывается случайное математическое выражение, например 35 + 16, которое нужно вычислить и записать правильный ответ.
+Пользователю показывается случайное математическое выражение, например **35 + 16**, которое нужно вычислить и записать правильный ответ.
 ### Запуск: `brain-calc`<br>
 [![asciicast](https://asciinema.org/a/WdmWJV1k2uQmh2ftz7YwzlZOe.svg)](https://asciinema.org/a/WdmWJV1k2uQmh2ftz7YwzlZOe)
 ## Игра: "НОД"
@@ -23,3 +23,10 @@
 Игрок должен определить это число.
 ### Запуск: `brain-progression`<br>
 [![asciicast](https://asciinema.org/a/OZq8TNnKxlqjTDkTi7T8ZQDsS.svg)](https://asciinema.org/a/OZq8TNnKxlqjTDkTi7T8ZQDsS)
+# Игра: "Простое ли число?"
+### Описание игры:
+Пользователю показывается случайное число. И ему нужно ответить **yes**, если число является **простым**, или **no** — если число не является простым.<br>
+_Простое число_ — целое положительное число, имеющее ровно два различных натуральных делителя — единицу и самого себя.<br>
+Например, 7 — простое число, потому что делится без остатка только на 1 и на себя.
+### Запуск: `brain-prime`<br>
+[![asciicast](https://asciinema.org/a/HAe9qK345Hhw3vqPerAYzvGkt.svg)](https://asciinema.org/a/HAe9qK345Hhw3vqPerAYzvGkt)
