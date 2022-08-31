@@ -1,6 +1,6 @@
 import getRandomNum from './getRandomNum.js';
 
 export default (arr) => {
-  const randIndex = getRandomNum(Math.floor, arr.length);
+  const randIndex = getRandomNum(arr.length, 'floor');
   return arr[randIndex];
 };
