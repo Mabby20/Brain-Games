@@ -1,4 +1,4 @@
-import getRandomNum from '../getRandomNum.js';
+import getRandomNum from '../helpers/getRandomNum.js';
 import gameCore from '../index.js';
 
 export default () => {

@@ -1,4 +1,4 @@
-import getAnswer from './getAnswer.js';
+import getAnswer from './helpers/getAnswer.js';
 
 export default (task, getArrWithAnswerQuestion) => {
   console.log('Welcome to the Brain Games!');

@@ -1,5 +1,5 @@
-import getRandElemArr from '../getRandElemArr.js';
-import getRandomNum from '../getRandomNum.js';
+import getRandElemArr from '../helpers/getRandElemArr.js';
+import getRandomNum from '../helpers/getRandomNum.js';
 import gameCore from '../index.js';
 
 export default () => {

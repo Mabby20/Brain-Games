@@ -1,5 +1,5 @@
-import getRandomNum from '../getRandomNum.js';
-import isEven from '../isEven.js';
+import getRandomNum from '../helpers/getRandomNum.js';
+import isEven from '../helpers/isEven.js';
 import gameCore from '../index.js';
 
 export default () => {
