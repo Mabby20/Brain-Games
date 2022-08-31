@@ -5,10 +5,11 @@ export default (task, getArrWithAnswerQuestion) => {
   const playerName = getAnswer('May I have your name? ');
   console.log(`Hello, ${playerName}!`);
   console.log(task);
-  for (let i = 1; i <= 3; i += 1) {
+  const numberOfAttempts = 3;
+  for (let i = 1; i <= numberOfAttempts; i += 1) {
     const pairOfQuestionAnswer = getArrWithAnswerQuestion();
-    // Итерации формируем новый вопрос и ответ.
-    // функция формирования ответа и вопроса у каждой игры своя.
+    // На каждой итерации формируем новый вопрос и ответ.
+    // Функция формирования ответа и вопроса у каждой игры своя.
     console.log(`Question: ${pairOfQuestionAnswer[0]}`);
     const playerAnswer = getAnswer('Your answer: ');
     if (playerAnswer === pairOfQuestionAnswer[1]) {
