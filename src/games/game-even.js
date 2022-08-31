@@ -8,7 +8,7 @@ export default () => {
   const getArrWithAnswerQuestion = () => {
     const randomNum = getRandomNum();
     const question = randomNum;
-    const correctAnswer = isEven(randomNum);
+    const correctAnswer = isEven(randomNum) ? 'yes' : 'no';
     return [question, correctAnswer];
   };
   gameCore(task, getArrWithAnswerQuestion);
