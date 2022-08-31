@@ -1,1 +1,4 @@
-export default (index = 10) => Math.ceil(Math.random() * index);
+export default (roundingMethod = Math.ceil, index = 10) => {
+  const randomNum = roundingMethod(Math.random() * index);
+  return randomNum;
+};
