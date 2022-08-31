@@ -1,4 +1,6 @@
+import getRandomNum from './getRandomNum.js';
+
 export default (arr) => {
-  const randIndex = Math.floor(Math.random() * arr.length);
+  const randIndex = getRandomNum(Math.floor, arr.length);
   return arr[randIndex];
 };
