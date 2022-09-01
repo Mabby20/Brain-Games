@@ -5,7 +5,7 @@ import gameCore from '../index.js';
 const operators = ['+', '-', '*'];
 const task = 'What is the result of the expression?';
 
-const getCorrectAnswer = (firstNum, secondNum, operator) => {
+const getResOfMathOperation = (firstNum, secondNum, operator) => {
   switch (operator) {
     case '+':
       return firstNum + secondNum;
@@ -23,7 +23,7 @@ const getArrWithAnswerQuestion = () => { //
   const firstOperand = getRandomNum();
   const secondOperand = getRandomNum();
   const question = `${firstOperand} ${randomOperator} ${secondOperand}`; // сгенерированный вопрос
-  const correctAnswer = getCorrectAnswer(firstOperand, secondOperand, randomOperator);
+  const correctAnswer = getResOfMathOperation(firstOperand, secondOperand, randomOperator);
   return [question, correctAnswer.toString()];
 };
 
