@@ -3,7 +3,7 @@ import gameCore from '../index.js';
 
 const task = 'What number is missing in the progression?';
 
-const getArrWithAnswerQuestion = () => {
+const getProgression = () => {
   const arrWithProgression = [];
   const startOfProgression = getRandomNum();
   const progressionIndexChange = getRandomNum(5);
@@ -12,6 +12,11 @@ const getArrWithAnswerQuestion = () => {
     arrWithProgression.push(i);
   }
 
+  return arrWithProgression;
+};
+
+const getArrWithAnswerQuestion = () => {
+  const arrWithProgression = getProgression();
   const randIndexArr = getRandomNum(arrWithProgression.length, 'floor');
   const correctAnswer = arrWithProgression[randIndexArr];
   arrWithProgression[randIndexArr] = '..';
