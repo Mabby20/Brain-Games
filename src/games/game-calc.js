@@ -14,8 +14,8 @@ const getCorrectAnswer = (firstNum, secondNum, operator) => {
     case '*':
       return firstNum * secondNum;
     default:
+      return 'this operator not found';
   }
-  return firstNum + secondNum;
 };
 
 const getArrWithAnswerQuestion = () => { //
