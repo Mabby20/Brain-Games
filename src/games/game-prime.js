@@ -4,17 +4,15 @@ import gameCore from '../index.js';
 const task = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const getCorrectAnswer = (num) => {
-  let isPrime = true;
   if (num === 1 || num <= 0) {
-    isPrime = false;
+    return false;
   }
   for (let i = 2; i <= (num / 2); i += 1) {
     if (num % i === 0) {
-      isPrime = false;
-      break;
+      return false;
     }
   }
-  return isPrime;
+  return true;
 };
 
 const getArrWithAnswerQuestion = () => {
