@@ -17,9 +17,8 @@ const isPrime = (num) => {
 
 const getArrWithAnswerQuestion = () => {
   const randomNum = getRandomNum(100);
-  const question = randomNum;
   const correctAnswer = isPrime(randomNum) ? 'yes' : 'no';
-  return [question, correctAnswer];
+  return [randomNum, correctAnswer];
 };
 
 export default () => {
