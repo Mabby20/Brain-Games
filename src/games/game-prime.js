@@ -3,7 +3,7 @@ import gameCore from '../index.js';
 
 const task = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
-const getCorrectAnswer = (num) => {
+const isPrime = (num) => {
   if (num === 1 || num <= 0) {
     return false;
   }
@@ -18,7 +18,7 @@ const getCorrectAnswer = (num) => {
 const getArrWithAnswerQuestion = () => {
   const randomNum = getRandomNum(100);
   const question = randomNum;
-  const correctAnswer = getCorrectAnswer(randomNum) ? 'yes' : 'no';
+  const correctAnswer = isPrime(randomNum) ? 'yes' : 'no';
   return [question, correctAnswer];
 };
 
