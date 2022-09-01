@@ -3,7 +3,7 @@ import gameCore from '../index.js';
 
 const task = 'Find the greatest common divisor of given numbers.';
 
-const getCorrectAnswer = (firstNum, secondNum) => {
+const getGreatestCommonDivisor = (firstNum, secondNum) => {
   const smallestNum = firstNum > secondNum ? secondNum : firstNum;
   for (let i = smallestNum; i > 1; i -= 1) {
     if (firstNum % i === 0 && secondNum % i === 0) {
@@ -17,7 +17,7 @@ const getArrWithAnswerQuestion = () => {
   const firstNum = getRandomNum(100);
   const secondNum = getRandomNum(100);
   const question = `${firstNum} ${secondNum}`;
-  const correctAnswer = getCorrectAnswer(firstNum, secondNum);
+  const correctAnswer = getGreatestCommonDivisor(firstNum, secondNum);
 
   return [question, correctAnswer.toString()];
 };
