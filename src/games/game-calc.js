@@ -14,7 +14,7 @@ const calculate = (firstNum, secondNum, operator) => {
     case '*':
       return firstNum * secondNum;
     default:
-      return 'this operator not found';
+      throw new Error('this operator not found');
   }
 };
 
